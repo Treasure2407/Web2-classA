@@ -15,7 +15,7 @@ body{
     font-size: 18px;
 }
 
-/Header/
+/*Header*/
 .heading{
     background-color: hsl(0, 0%, 100%);
     display: flex;

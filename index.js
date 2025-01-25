@@ -12,5 +12,5 @@ requestButtons.forEach(button => {
 const footerText = document.querySelector('footer p');
 if (footerText) {
   const currentYear = new Date().getFullYear();
-  footerText.textContent = © Easybank. All Rights Reserved ${currentYear};
+  footerText.textContent = `© Easybank. All Rights Reserved ${currentYear}`;
 }
