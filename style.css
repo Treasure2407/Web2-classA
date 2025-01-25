@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+body{
+    background-color:hsl(0, 0%, 100%);
+    color: black;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/Header/
+.heading{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 100px;
+    
+   
+
+} 
+
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline;
+    justify-content: space-between;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+button{
+    color: #ffffff;
+    background: linear-gradient(-90deg, hsl(192, 70%, 51%), #67af60 90%);
+    padding: 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: solid thin #70afa7;
+    border-radius: 15px;
+    width: 15%;
+
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+button a:hover{
+    color: black;
+    
+}
+
+button:hover{
+    transform: translate(0, -5px);
+
+}
+
+/* Hero section*/
+.hero{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+}
+
+.CTO{
+    padding: 10% 10%;
+
+}
+
+.CTO h2{
+    font-style: italic;
+    font-size: 250%;
+}
+
+.CTO button{
+    padding: 5% 10%;
+    margin: 15% 15%;
+    width: 50%;
+}
+
+.mockup {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mockup img {
+    position: absolute;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  .mockup img:first-child {
+    z-index: 1;
+    transform: translate(-20%, -20%);
+  }
+  
+  .mockup .img2 {
+    z-index: 2;
+    transform: translate(10%, 10%);
+  }
+
+ /* Section 3*/
+ .reason{
+    background-color: rgb(221, 221, 206);
+ }
+
+ .why{
+    padding: 5% 5%;
+    margin: 0 5%;
+    width: 50%;
+ }
+
+ .us{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10%;
+}
+
+.online{
+    margin: 2% 5%;    
+}
+
+.online img{
+    width: 40%;
+}
+
+/* Articles*/
+.articles{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+   
+}
+
+.article1{
+    margin: 2% 2%;    
+ 
+}
+.articles img{
+    width: 80%;
+
+}
+
+.latest h2{
+    margin: 0 5%;
+    padding: 0 5%;
+}
+
+.article1 p{
+    font-size: 90%;
+}
+
+/* Footer*/
+footer{
+    background-color: hsl(233, 30%, 16%);
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    margin: 20% 0;
+    
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover{
+    color: black;
+}
+
+.nav2 ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 ul li a:hover{
+    color: black;
+}   
+
+.button button{
+    width: 80%;
+
+}
+ 
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .heading {
+      padding: 12px 50px;
+    }
+  
+    button{
+        width: 100px;
+    }
+    
+    .CTO h2 {
+      font-size: 2rem;
+    }
+  
+    .mockup{
+        display: grid;
+    }
+
+    .mockup img {
+      max-width: 90%;
+    }
+  
+    .reason {
+      padding: 2rem;
+    }
+
+    .us{
+        display: grid;
+    }
+  
+    .why h2 {
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .heading {
+      flex-wrap: wrap;
+      padding: 12px 20px;
+      text-align: center;
+    }
+  
+    .heading img {
+      margin-bottom: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .mockup{
+        display: grid;
+        height: 250px;
+    }
+
+    .mockup img {
+      max-width: 100%;
+    }
+  
+    .articles {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .CTO h2 {
+      font-size: 1.5rem;
+    }
+  
+    .CTO button {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .mockup img:first-child {
+      transform: translate(0, -5%);
+    }
+  
+    .mockup .img2 {
+      transform: translate(0, 5%);
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .icons img {
+      margin: 0.5rem;
+    }
+  }
