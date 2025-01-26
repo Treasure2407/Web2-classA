@@ -26,7 +26,9 @@ Users should be able to:
 ##### Screenshot
 View screenshot of my project here
 
-![](./)
+![](./images/easybank%20screenshot1.png)
+![](./images/easybank%20screenshot2.png)
+![](./images/easybank%20screenshot3.png)
 
 ###### Links
 - GITHUB URL: [Easybank solution URL](https://github.com/Treasure2407/Easybank/commits?author=Treasure2407)
