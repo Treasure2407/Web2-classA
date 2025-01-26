@@ -31,8 +31,8 @@ View screenshot of my project here
 ![](./images/easybank%20screenshot3.png)
 
 ###### Links
-- GITHUB URL: [Easybank solution URL](https://github.com/Treasure2407/Easybank/commits?author=Treasure2407)
-- Netlify URL: [Easybank solution URL](https://your-live-site-url.com)
+- GITHUB URL: [Easybank solution URL](https://github.com/Treasure2407/Web2-classA)
+- Netlify URL: [Easybank solution URL](https://web2classa.netlify.app/)
 
 ###### Built with
 - Semantic HTML5 markup
