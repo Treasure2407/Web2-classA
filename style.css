@@ -16,6 +16,7 @@ body{
 }
 
 /*Header*/
+
 .heading{
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -26,6 +27,8 @@ body{
    
 
 } 
+
+/*Nav bar*/
 
 nav ul li{
     list-style: none;
@@ -43,6 +46,8 @@ nav ul li a{
 nav ul li a:hover{
     color: black;
 }
+
+/*Button for all sections of the landing page*/
 
 button{
     color: #ffffff;
@@ -73,6 +78,7 @@ button:hover{
 }
 
 /* Hero section*/
+
 .hero{
     background-color: rgb(233, 233, 233);
     display: flex;
@@ -94,6 +100,7 @@ button:hover{
     width: 50%;
 }
 
+/*Hero section images*/
 .mockup {
     position: relative;
     width: 100%;
@@ -119,6 +126,7 @@ button:hover{
   }
 
  /* Section 3*/
+
  .reason{
     background-color: rgb(221, 221, 206);
  }
@@ -144,6 +152,7 @@ button:hover{
 }
 
 /* Articles*/
+
 .articles{
     display: flex;
     justify-content: space-between;
@@ -170,6 +179,7 @@ button:hover{
 }
 
 /* Footer*/
+
 footer{
     background-color: hsl(233, 30%, 16%);
     color: white;
