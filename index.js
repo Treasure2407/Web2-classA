@@ -8,6 +8,18 @@ requestButtons.forEach(button => {
   });
 });
 
+// Smooth Scrolling for Anchor Links
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const targetId = link.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+
 // Dynamically Change Footer Year
 const footerText = document.querySelector('footer p');
 if (footerText) {
